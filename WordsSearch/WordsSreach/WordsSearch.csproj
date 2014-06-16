@@ -155,9 +155,13 @@
     <Compile Include="Table.Designer.cs">
       <DependentUpon>Table.cs</DependentUpon>
     </Compile>
+    <None Include="Skin\Skinpack.zip" />
+    <None Include="Skin\suipacktrial.zip" />
+    <None Include="Skin\suiskintrial.zip" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Clipboard.ico" />
+    <Content Include="Skin\IrisSkin2.dll" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
@@ -176,6 +180,7 @@
       <Install>true</Install>
     </BootstrapperPackage>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
